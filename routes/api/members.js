@@ -16,4 +16,9 @@ router.get("/:id", (req, res) => {
   }
 });
 
+// Create Member
+router.post("/", (req, res) => {
+  const newMember = {};
+});
+
 module.exports = router;
